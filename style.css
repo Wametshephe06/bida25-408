@@ -1,0 +1,167 @@
+body {
+  background-color: #e6ccff; /* light purple */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #2e003e; /* dark purple text */
+}
+
+/* NAVBAR */
+nav {
+  background-color: #5a08ab;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* HEADINGS */
+h1, h2 {
+  text-align: center;
+  color: #4b0082;
+}
+
+/* SECTIONS */
+section {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* FORM (for feedback page) */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #8000ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #5a00b3;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 40px; /* makes it bigger */
+  background-color: #8000ff;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px; /* THIS makes it oval 🔥 */
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #5a00b3;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
+a.btn {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+btn {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.product {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.product img {
+  width: 100%;
+  height: 250px; /* increase from 200px → 250px */
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+.about-box {
+  width: 60%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.about-box p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 40px;
+}
+
+.product {
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.buy-btn {
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: #8000ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buy-btn:hover {
+  background-color: #5a00b3;
+}
