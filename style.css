@@ -68,3 +68,19 @@ button {
 button:hover {
     background-color: #8000ff;
 }
+
+.hero {
+  background-image: url("images/banner.png");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+}
+``
